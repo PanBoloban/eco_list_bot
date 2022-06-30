@@ -1,0 +1,4 @@
+__pycache__/
+venv/
+keyboards/__pycache__/
+constant.py
