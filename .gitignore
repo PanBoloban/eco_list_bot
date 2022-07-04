@@ -2,3 +2,5 @@ __pycache__/
 venv/
 keyboards/__pycache__/
 constant.py
+test.py
+novoe_delete.txt
