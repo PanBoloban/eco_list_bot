@@ -1,4 +1,4 @@
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 DELKB = ReplyKeyboardRemove() # удаляем клавиатуру
@@ -22,3 +22,10 @@ ib4 = KeyboardButton('📩 Написать оператору')
 
 inclient_kb = ReplyKeyboardMarkup(resize_keyboard=True)
 inclient_kb.add(ib1).add(ib2).add(ib3).insert(ib4)
+
+'''Инлайн клавиатура выбор как узнать статус заказа'''
+# Order_Menu = InlineKeyboardMarkup(row_width=2) # для вызова вставляем в код reply_markup=Order_Menu
+# ob1 = InlineKeyboardButton(text='По номеру заказа', callback_data='По номеру заказа')
+# ob2 = InlineKeyboardButton(text='По номеру телефона', callback_data='По номеру телефона')
+# Order_Menu.insert(ob1, ob2)
+
